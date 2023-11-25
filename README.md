@@ -6,7 +6,7 @@
 * The code extracts a text input in one language (e.g., English) and aims to translate it into the target language (e.g., Hindi).
 * It then uses a Text-to-Speech (TTS) engine to synthesize the translated text into speech.
 
-**Prerequisites**
+**#Prerequisites**
 Make sure you have the following dependencies installed:
 Python 3.x
 gtts
@@ -57,3 +57,13 @@ The output speech is saved to a specified path (in this case, 'C:/Users/chenn/Do
 ## Output:
 
 The code prints a message indicating that the speech has been generated and saved.
+
+**Evaluating Performance**
+
+Performance evaluation of the voice cloning model can be subjective and may involve listening to the generated speech to assess how well it captures the original speaker's voice in the target language.
+
+Consider the following criteria for evaluation:
+
+Naturalness: How natural does the synthetic speech sound in the target language?
+Pitch and Tone: Does the synthesized voice maintain the pitch and tone of the original speaker?
+Intelligibility: Is the generated speech clear and intelligible in the target language?
