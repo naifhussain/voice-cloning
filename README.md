@@ -6,6 +6,29 @@
 * The code extracts a text input in one language (e.g., English) and aims to translate it into the target language (e.g., Hindi).
 * It then uses a Text-to-Speech (TTS) engine to synthesize the translated text into speech.
 
+**Prerequisites**
+Make sure you have the following dependencies installed:
+Python 3.x
+gtts
+langdetect
+googletrans==4.0.0-rc1
+pygame
+
+You can install these dependencies using the following command:
+pip install gtts langdetect googletrans==4.0.0-rc1 pygame
+
+**Running the Model**
+Clone the repository to your local machine:
+
+git clone <repository_url>
+cd <repository_folder>
+Open a terminal or command prompt and navigate to the cloned repository.
+Edit the input_text variable in the provided script with the desired input text in any language.
+
+Run the script using the following command:
+python voice_cloning_model.py
+Model Workflow
+
 # Here's a breakdown of the tasks performed in the code:
 
 ## Preprocessing:
